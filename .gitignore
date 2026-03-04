@@ -10,5 +10,48 @@
 *.log.*
 *.sig
 
+
 pkg/
 src/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs & databases
+*.log
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+
+# Large data files (optional)
+*.csv
+*.h5
+*.pkl
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
